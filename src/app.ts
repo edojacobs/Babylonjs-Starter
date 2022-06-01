@@ -49,17 +49,10 @@ class App {
 
     /**
      *
-     * Inspector
+     * on Initial reload
      */
-    window.addEventListener("keydown", (ev) => {
-      // Shift+Ctrl+Alt+I
-      if (ev.shiftKey && ev.ctrlKey && ev.altKey && ev.keyCode === 73) {
-        if (scene.debugLayer.isVisible()) {
-          scene.debugLayer.hide();
-        } else {
-          scene.debugLayer.show();
-        }
-      }
+    scene.onBeforeRenderObservable.addOnce(() => {
+      engine.resize();
     });
 
     /**
