@@ -1,9 +1,10 @@
-# Babylonjs
+# Babylonjs React Typesciprt Basic 
+- Basic BabylonJS project
 
-## Instructions how to create this project
-[Babylon Project Guid](https://medium.com/@edoter92/babylonjs-typescript-project-2e345c847bda)
+- [Babylon Project Guid](https://medium.com/@edoter92/babylonjs-typescript-project-2e345c847bda)
 
-[Offical instructions doc](https://doc.babylonjs.com/guidedLearning/createAGame/gettingSetUp)
+- [Offical instructions doc](https://doc.babylonjs.com/guidedLearning/createAGame/gettingSetUp)
+
 
 ## Build and Start
 ```bash

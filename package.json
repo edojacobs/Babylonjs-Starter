@@ -1,4 +1,5 @@
 {
+  "name": "babylon-react-declarative",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --port 8080"
